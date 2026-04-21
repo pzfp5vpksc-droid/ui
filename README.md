@@ -8,7 +8,7 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/pzfp5vpksc-droid/deuiobdoom/refs/heads/main/uistuff", true))()
 ```
 
-### Adding Tab
+### Adding Window
 
 ```lua
 local Window = library:CreateWindow("Your Title")
