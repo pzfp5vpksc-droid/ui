@@ -43,8 +43,8 @@ end
 ### Adding TextBox
 
 ```lua
-Window:AddTextbox({
-	text = "TextBox",
+Window:AddBox({
+	text = "Try It",
 	flag = "textbox",
 	callback = function(v)
 	print(v)
