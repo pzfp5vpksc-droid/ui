@@ -1,5 +1,5 @@
 # Boris Ui
-#### very nice and small and sexy all da ladies luv it :)
+#### very nice and small and sexy all da ladies luv it ;)
 
 
 ### Setup The Library
@@ -13,7 +13,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/pzfp5
 ```lua
 local Window = library:CreateWindow("Your Title")
 ```
-### Adding Folder Inside Of Tab (Optional)
+### Adding Folder Inside Of Window (Optional)
 
 ```lua
 local folder = tab:AddFolder("Folder")
