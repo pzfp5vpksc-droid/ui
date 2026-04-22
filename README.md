@@ -13,16 +13,16 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/pzfp5
 ```lua
 local Window = library:CreateWindow("Your Title")
 ```
-### Adding Folder Inside Of Window (Optional)
+### Adding Tab Inside Of Window (Optional)
 
 ```lua
-local folder = tab:AddFolder("Folder")
+local Tab = tab:AddFolder("Tab1")
 ```
 ### Adding Button
 
 ```lua
 Window:AddButton({
-	text = "Click me",
+	text = "Click Me",
 	flag = "button",
 	callback = function()
 	print("hello world")
@@ -56,8 +56,8 @@ end
 ```lua
 Window:AddSlider({
 	text = "Fov",
-	min = 70,
-	max = 170,
+	min = 10,
+	max = 100,
 	dual = true,
 	type = "slider",
 	callback = function(v)
@@ -70,13 +70,13 @@ end
 
 ```lua
 Window:AddList({
-    text = "Color",
-    values = {"Red", "Green", "Blue"},
+    text = "Fruit",
+    values = {"Apple", "Banana", "Pear"},
     callback = function(value)
-        print("Selected color:", value)
+        print("Selected fruit:", value)
     end,
     open = false,
-    flag = "color_option"
+    flag = "fruits"
 })
 ```
 
@@ -84,8 +84,8 @@ Window:AddList({
 
 ```lua
 Window:AddBind({
-    text = "bind",
-    key = "X",
+    text = "Bind",
+    key = "C",
     hold = false,
     callback = function()
     end
@@ -96,7 +96,7 @@ Window:AddBind({
 
 ```lua
 Window:AddLabel({
-	text = "This Is Sick!",
+	text = "You Have Aura.",
 	type = "label"
 	})
 ```
