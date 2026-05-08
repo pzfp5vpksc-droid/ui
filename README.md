@@ -1,6 +1,13 @@
 # Boris Ui
 #### very nice and small and sexy all da ladies luv it ;)
 
+### Get Rid Of Lib If There Is 2
+
+```lua
+if game:GetService("CoreGui"):FindFirstChild("BoraScriptsUi") then
+game:GetService("CoreGui").BoraScriptsUi:Destroy()
+end
+```
 
 ### Setup The Library
 
