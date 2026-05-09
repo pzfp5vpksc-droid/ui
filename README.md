@@ -1,7 +1,7 @@
 # Boris Ui
 #### very nice and small and sexy all da ladies luv it ;)
 
-### Get Rid Of Lib If There Is 2
+### Makes Only 1 Lib Allowed
 
 ```lua
 if game:GetService("CoreGui"):FindFirstChild("BoraScriptsUi") then
